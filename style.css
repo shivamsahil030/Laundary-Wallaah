@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-background-color: #0A57A2;
+    --secondary-background-color:#c0eaf8;
+    --heading-font:'Poppins', 'sans-serif';
+    --section-font: 'Montserrat', 'sans-serif';
+    --paragraph-font:'Inter', 'sans-serif'
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    padding: 10px 20px;
+
+
+}
+
+.navbar .logo  {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+#logo{
+    font-size: 32px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    padding-left: 10%;
+    text-decoration: none;
+
+
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+nav a {
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #2a8be7;
+  color: white;
+}
+/* main-section-style */
+.hero-section{
+    height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: var(--secondary-background-color);
+    background-image: url("/Assigement-2/images/headerbg.png");
+    background-size:cover;
+     background-position: center;
+     background-repeat: no-repeat ;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+
+
+    
+
+}
+.main-username{
+    height: 30px;
+    width: 100px;
+    margin-top: 20%;
+    background: var(--primary-background-color) ;
+    font-family: var(--heading-font);
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.main-section00{
+ height: 500px;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    padding-right: 15%;
+}
+.main-text00 h1{
+font-size: 100px;
+font-family: var(--heading-font);
+font-weight: 500;
+
+
+}
+
+.main-text00 h2{
+font-size: 45px ;
+font-family: var(--section-font);
+font-weight: 200;
+}
+
+.main-section00 p{
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+}
+
+.main-bookServices{
+      height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background: var(--primary-background-color) ;
+    font-family: var(--heading-font);
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-img00 img{
+height: 480px;
+width: 100%;
+background-color: azure;
+
+
+
+
+
+}
