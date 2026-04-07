@@ -74,7 +74,7 @@ nav a:hover {
     width: 100%;
     margin-top: 1rem;
     background-color: var(--secondary-background-color);
-    background-image: url("/Assigement-2/images/headerbg.png");
+    background-image: url("headerbg.png");
     background-size:cover;
      background-position: center;
      background-repeat: no-repeat ;
